@@ -1,3 +1,6 @@
+### This script parses the HTML from an apartments/housing Craigslist page and
+### returns information such as the date it was added, a description, price, and address if listed. 
+
 # Import the requests and BeautifulSoup modules
 import requests
 from bs4 import BeautifulSoup
